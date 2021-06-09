@@ -1,3 +1,30 @@
+--
+--
+--
+--
+--
+--
+-- To use adaptation just change authorizedJobs to authorizedGangs
+--
+--
+--
+--
+--
+--
+-- Gang Door EXAMPLE
+	--{
+	--	objName = 'prop_com_gar_door_01',
+	--	objCoords  = vector3(-21.04025, -1410.734, 30.51094),			
+	--	textCoords = vector3(-21.04025, -1410.734, 30.51094),
+	--	authorizedGangs = { 'kenshi' }, <--- CHANGE authorizedJobs to authorizedGangs to use in door's for gangs players.
+	--	locking = false,
+	--	locked = true,
+	--	pickable = false,
+	--	distance = 15.0,
+	--	size = 2
+	--},
+
+
 QB = {}
 
 QB.Doors = {
@@ -113,7 +140,6 @@ QB.Doors = {
 		objCoords  = vector3(463.8, -992.6, 24.9),
 		textCoords = vector3(463.3, -992.6, 25.1),
 		authorizedJobs = { 'police' },
-		authorizedGangs = { 'kenshi' },
 		locking = false,
 		locked = true,
 		pickable = false,
