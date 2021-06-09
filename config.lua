@@ -10,13 +10,14 @@
 --
 --
 --
---
+-- You need to set both strings, authorizedJobs and authorizedGangs to get to work.
 -- Gang Door EXAMPLE
 	--{
 	--	objName = 'prop_com_gar_door_01',
 	--	objCoords  = vector3(-21.04025, -1410.734, 30.51094),			
 	--	textCoords = vector3(-21.04025, -1410.734, 30.51094),
-	--	authorizedGangs = { 'kenshi' }, <--- CHANGE authorizedJobs to authorizedGangs to use in door's for gangs players.
+	--	authorizedJobs = { '' }, <---- IF DONT HAVE JOB, JUST LEAVE BLANK
+	--	authorizedGangs = { 'kenshi' }, <---- JUST SET authorizedGangs too
 	--	locking = false,
 	--	locked = true,
 	--	pickable = false,
